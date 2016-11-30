@@ -1,0 +1,80 @@
+body{
+  background-color: #202020;
+}
+
+.wrapper {
+  width: 400px;
+  margin:0 auto;
+}
+
+.board{
+  width: 400px;
+  height:400px;
+  z-index: 2;
+}
+
+.row1, .row2, .row3 {
+  clear:both;
+}
+
+body h1{
+  font-family: 'Bungee Shade', cursive;
+  color: #00CC66;
+  text-align: center;
+  font-size: 30px;
+}
+
+#board h1{
+  /*font-family: 'Bungee Shade', cursive;*/
+  font-family: 'Creepster', cursive;
+  color: #00CC66;
+  text-align: center;
+  font-size: 46px;
+}
+
+#win-text h1{
+  font-size: 35px;
+  padding-top: 100px;
+}
+
+#square1, #square2, #square3, #square4, #square5, #square6, #square7, #square8, #square9{
+  width:100px;
+  height:100px;
+  float: left;
+}
+
+#square1{
+  border-bottom: 10px solid #00CC66;
+  border-right: 10px solid #00CC66;
+}
+
+#square2{
+  border-bottom: 10px solid #00CC66;
+  border-right: 10px solid #00CC66;
+}
+
+#square3{
+  border-bottom: 10px solid #00CC66;
+}
+
+#square4{
+  border-bottom: 10px solid #00CC66;
+  border-right: 10px solid #00CC66;
+}
+
+#square5{
+  border-bottom: 10px solid #00CC66;
+  border-right: 10px solid #00CC66;
+}
+
+#square6{
+  border-bottom: 10px solid #00CC66;
+}
+
+#square7{
+  border-right: 10px solid #00CC66;
+}
+
+#square8{
+  border-right: 10px solid #00CC66;
+}
