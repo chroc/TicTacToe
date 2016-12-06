@@ -17,11 +17,34 @@ body{
   clear:both;
 }
 
+.current-player-div{
+  margin-left: 20px;
+}
+
+h3{
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  font-family: 'Creepster', cursive;
+  font-size: 20px;
+  color: #00CC66;
+}
+
+.score{
+  font-family: 'Gloria Hallelujah', cursive;
+  /*font-family: 'Creepster', cursive;*/
+  font-size: 20px;
+  color: #00CC66;
+  position: fixed;
+  bottom: 0;
+}
+
 body h1{
   font-family: 'Bungee Shade', cursive;
   color: #00CC66;
   text-align: center;
   font-size: 30px;
+}
+
+#reset-game{
 }
 
 #board h1{
@@ -33,8 +56,15 @@ body h1{
 }
 
 #win-text h1{
+  font-family: 'Bungee', cursive;
   font-size: 35px;
   padding-top: 100px;
+}
+
+#draw-text h1{
+  font-family: 'Creepster', cursive;
+  font-size: 35px;
+  padding-top: 150px;
 }
 
 #square1, #square2, #square3, #square4, #square5, #square6, #square7, #square8, #square9{

@@ -6,31 +6,44 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   </head>
   <body>
-    <h1>...:::!! Tic Tac Toe !!:::...</h1><br><br><br>
+    <h1>...:::!! Tic Tac Toe !!:::...</h1><br>
+    <div class="current-player-div">
+      <h3>Current Player:</h3>
+      <div id="current-player">
+      </div>
+      <button id="reset-game">Reset Game</button>
+    </div>
     <div class="wrapper">
       <div id="board">
         <div class="row1">
-          <div id="square1"></div>
-          <div id="square2"></div>
-          <div id="square3"></div>
+          <div id="square1"><h1 id="symbol1"></h1></div>
+          <div id="square2"><h1 id="symbol2"></h1></div>
+          <div id="square3"><h1 id="symbol3"></h1></div>
         </div>
         <div class="row2">
-          <div id="square4"></div>
-          <div id="square5"></div>
-          <div id="square6"></div>
+          <div id="square4"><h1 id="symbol4"></h1></div>
+          <div id="square5"><h1 id="symbol5"></h1></div>
+          <div id="square6"><h1 id="symbol6"></h1></div>
         </div>
         <div class="row3">
-          <div id="square7"></div>
-          <div id="square8"></div>
-          <div id="square9"></div>
+          <div id="square7"><h1 id="symbol7"></h1></div>
+          <div id="square8"><h1 id="symbol8"></h1></div>
+          <div id="square9"><h1 id="symbol9"></h1></div>
         </div>
       </div>
       <div id="win-text">
       </div>
+      <div id="draw-text">
+      </div>
     </div>
-
+    <div class="score">
+      <p id="x-score">Player -X-> </p>
+      <p id="o-score">Player -O-> </p>
+    </div>
     <script src="js/view.js" charset="utf-8"></script>
     <script src="js/controller.js" charset="utf-8"></script>
 
